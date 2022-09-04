@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/",methods=['GET','POST'])
 def index():
-    return "Starting the project"
+    return "Hi there! Project working with CI/CD pipelines."
 
 
 if __name__=="__main__":
