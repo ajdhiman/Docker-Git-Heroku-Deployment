@@ -26,3 +26,27 @@ git commit -m "Adding files"
 ```
 git push origin main
 ```
+
+Build Docker Image
+
+```
+docker build -t docker-heroku-deployment:tag-first .
+```
+
+```
+docker images
+```
+
+```
+docker run -p 5000:5000 -e PORT=5000 02e7e313fca9
+```
+
+To check running container in docker
+```
+docker ps
+```
+
+To stop docker conatiner
+```
+docker stop <container_id>
+```
