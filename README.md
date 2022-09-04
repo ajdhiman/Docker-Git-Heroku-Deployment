@@ -15,3 +15,12 @@ Use Requirements.txt file
 ```
 pip install -r requirements.txt
 ```
+
+Git Commands
+```
+git add .
+```
+git commit -m "Adding files"
+```
+git push origin main
+```
