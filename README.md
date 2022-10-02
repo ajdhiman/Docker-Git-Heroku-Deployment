@@ -51,3 +51,10 @@ To stop docker conatiner
 ```
 docker stop <container_id>
 ```
+
+
+To install requirements from Setup.py
+```
+python setup.py install
+```
+pip install -e.
