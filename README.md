@@ -58,3 +58,9 @@ To install requirements from Setup.py
 python setup.py install
 ```
 pip install -e.
+
+
+Install ipykernel
+```
+pip install ipykernel
+```
